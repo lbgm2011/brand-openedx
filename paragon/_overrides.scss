@@ -1,2 +1,10 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+#root .layout .pgn__hyperlink.default-link.standalone-link {
+    display: block !important;
+  }
+  
+  .large-screen-svg-primary { 
+    fill: #f8f7f6 !important;
+  }
